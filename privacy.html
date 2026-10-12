@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de privacidad de VaultKeeper.">
+  <title>Política de privacidad — VaultKeeper</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1220; --panel:#111c2f; --text:#ecf2ff; --muted:#b6c3d9; --accent:#6ea8fe; --line:#2a3b58; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Segoe UI,system-ui,-apple-system,sans-serif; color:var(--text); background:radial-gradient(ellipse at top,#162a48,var(--bg) 60%); line-height:1.7; }
+    main { max-width:850px; margin:auto; padding:38px 22px 64px; }
+    a { color:var(--accent); } h1 { font-size:clamp(2rem,6vw,3.2rem); line-height:1.15; }
+    h2 { margin-top:2rem; } p,li { color:var(--muted); }
+    .notice { border:1px solid var(--line); background:var(--panel); border-radius:12px; padding:18px; }
+    nav { border-top:1px solid var(--line); padding-top:20px; margin-top:38px; }
+  </style>
+</head>
+<body>
+<main>
+  <p><a href="index.html">← Volver a VaultKeeper</a></p>
+  <h1>Política de privacidad de VaultKeeper</h1>
+  <p><strong>Última actualización: 12 de octubre de 2026</strong></p>
+  <p>Esta política describe cómo la aplicación de escritorio VaultKeeper utiliza la información necesaria para configurar y ejecutar tareas de copia de seguridad y, si el usuario lo habilita, conectarse a Google Drive.</p>
+  <h2>Información que maneja la aplicación</h2>
+  <p>Según las funciones que utilice el usuario, VaultKeeper puede procesar parámetros de conexión a bases de datos, rutas de archivos, preferencias de configuración y archivos de copia de seguridad generados por el usuario. Las credenciales de conexión que el usuario introduzca se utilizan para la función de conexión correspondiente. No introduzcas información que no estés autorizado a gestionar.</p>
+  <h2>Uso de Google Drive y OAuth</h2>
+  <p>La conexión con Google Drive es opcional y se inicia cuando el usuario la solicita. Google OAuth se utiliza para autorizar el acceso. La integración solicita el permiso <code>drive.file</code>, que permite a la aplicación crear archivos y acceder a los archivos que utiliza o que el usuario comparte con ella, en lugar de solicitar acceso general a todo el Drive.</p>
+  <p>Cuando el usuario ejecuta una transferencia, el archivo elegido o generado para esa operación puede cargarse en la carpeta remota configurada por el usuario. Los archivos de copia locales no se eliminan como parte de la prueba de subida manual. Las futuras funciones de automatización, si se habilitan, dependerán de la configuración de la aplicación.</p>
+  <h2>Almacenamiento y servicios de terceros</h2>
+  <p>Los archivos pueden permanecer en las ubicaciones locales configuradas por el usuario y, si se usa la integración de nube, en su cuenta de Google Drive. Google procesa datos de acuerdo con sus propias condiciones y políticas de privacidad. VaultKeeper no controla las prácticas de privacidad de Google.</p>
+  <h2>Conservación, seguridad y control del usuario</h2>
+  <p>El usuario administra las ubicaciones de las copias locales y remotas y debe proteger sus dispositivos, cuentas y credenciales. El acceso de VaultKeeper a Google puede revocarse desde los controles de seguridad de la cuenta de Google. La eliminación de archivos locales o remotos debe gestionarse en la ubicación correspondiente; revocar OAuth no implica por sí mismo eliminar las copias de seguridad.</p>
+  <p>Como toda herramienta de respaldo, VaultKeeper no sustituye la responsabilidad del usuario de mantener copias de seguridad adecuadas y verificar que los archivos puedan restaurarse.</p>
+  <h2>Privacidad de menores</h2>
+  <p>VaultKeeper es una herramienta de escritorio de propósito general y no está diseñada específicamente para recopilar datos personales de menores.</p>
+  <h2>Cambios de esta política</h2>
+  <p>Esta política puede actualizarse cuando cambien las funciones o el tratamiento de información. La fecha al principio de esta página indica la última actualización publicada.</p>
+  <h2>Contacto</h2>
+  <p>Para preguntas o solicitudes relacionadas con privacidad, contacta a <a href="mailto:jevarosistemas@gmail.com">jevarosistemas@gmail.com</a>.</p>
+  <div class="notice"><strong>Nota:</strong> revisa que esta descripción refleje las funciones de la versión que distribuyas. Esta página informativa no constituye asesoramiento legal ni garantiza que Google exima a la aplicación de otros requisitos.</div>
+  <nav><a href="index.html">Página principal de VaultKeeper</a></nav>
+</main>
+</body>
+</html>

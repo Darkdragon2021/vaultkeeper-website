@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VaultKeeper es una aplicación de escritorio para gestionar copias de seguridad de bases de datos y almacenamiento local y remoto.">
+  <title>VaultKeeper — Copias de seguridad</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1220; --panel:#111c2f; --text:#ecf2ff; --muted:#b6c3d9; --accent:#6ea8fe; --line:#2a3b58; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Segoe UI,system-ui,-apple-system,sans-serif; color:var(--text); background:radial-gradient(ellipse at top,#162a48,var(--bg) 60%); line-height:1.65; }
+    main { max-width:900px; margin:auto; padding:32px 22px 64px; }
+    header { padding:44px 0 30px; }
+    .eyebrow { color:var(--accent); font-weight:700; letter-spacing:.12em; text-transform:uppercase; font-size:.82rem; }
+    h1 { font-size:clamp(2.4rem,8vw,4.8rem); line-height:1.08; margin:.25em 0; }
+    h2 { margin-top:0; } p { color:var(--muted); }
+    .lead { font-size:1.2rem; max-width:700px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:26px; }
+    a.button { display:inline-block; padding:11px 17px; border-radius:9px; text-decoration:none; font-weight:650; border:1px solid var(--line); color:var(--text); }
+    a.primary { color:#071326; background:var(--accent); border-color:var(--accent); }
+    section { background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:24px; margin:18px 0; }
+    ul { color:var(--muted); padding-left:1.25rem; }
+    footer { color:var(--muted); border-top:1px solid var(--line); margin-top:34px; padding-top:20px; font-size:.92rem; }
+    footer a { color:var(--accent); }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">Herramientas de respaldo</div>
+    <h1>VaultKeeper</h1>
+    <p class="lead">Una aplicación de escritorio para ayudar a configurar y administrar copias de seguridad de bases de datos, con almacenamiento local y una opción de transferencia a Google Drive.</p>
+    <div class="actions">
+      <a class="button primary" href="#funciones">Conocer la aplicación</a>
+      <a class="button" href="privacy.html">Política de privacidad</a>
+    </div>
+  </header>
+  <section id="funciones">
+    <h2>¿Qué es VaultKeeper?</h2>
+    <p>VaultKeeper está diseñada para facilitar la configuración del respaldo de bases de datos compatibles y administrar dónde se guardan sus archivos de copia. Las funciones disponibles dependen de la versión instalada y de la configuración del usuario.</p>
+    <ul>
+      <li>Configuración de conexiones a motores de bases de datos compatibles.</li>
+      <li>Almacenamiento de copias de seguridad en una carpeta local elegida por el usuario.</li>
+      <li>Integración opcional con Google Drive para transferir archivos seleccionados o generados por la aplicación.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Google Drive</h2>
+    <p>Si el usuario conecta Google Drive, VaultKeeper solicita autorización mediante Google OAuth. La integración está configurada para usar el permiso <code>drive.file</code>, destinado a los archivos que la aplicación crea o a los que el usuario le da acceso. El usuario puede retirar el acceso desde la configuración de su cuenta de Google.</p>
+  </section>
+  <section>
+    <h2>Contacto</h2>
+    <p>Para preguntas sobre VaultKeeper, el consentimiento de Google o esta página, escribe a <a href="mailto:jevarosistemas@gmail.com">jevarosistemas@gmail.com</a>.</p>
+  </section>
+  <footer>
+    <p>© 2026 VaultKeeper. Información del proyecto y de la aplicación.</p>
+    <p><a href="privacy.html">Política de privacidad</a></p>
+  </footer>
+</main>
+</body>
+</html>
